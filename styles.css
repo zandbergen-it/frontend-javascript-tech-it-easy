@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.dashboard, .tvListSection {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.tvList {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+#soldTvs {
+    color: green
+}
+
+#boughtTvs {
+    color: blue
+}
+
+#toBeSoldTvs {
+    color: red
+}
